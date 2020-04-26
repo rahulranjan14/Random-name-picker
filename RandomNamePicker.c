@@ -9,12 +9,19 @@ int main()
 
     int i,num,random,choice;
 
+    printf("Welcome to the random name picker\n");
+    printf("\n");
+
     printf("Enter the number of Players\n");
     scanf("%d",&num);
+
+    printf("\n");
 
     char collection[num][15];
 
     printf("Enter players name\n");
+
+    printf("\n");
 
     for(i=0;i<num;i++)
     {
