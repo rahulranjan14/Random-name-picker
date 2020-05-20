@@ -19,10 +19,6 @@ int main()
 
     char collection[num][15];
 
-    printf("Enter players name\n");
-
-    printf("\n");
-
     for(i=0;i<num;i++)
     {
         printf("Enter player %d Name\n",i+1);
